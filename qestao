@@ -1,0 +1,30 @@
+algoritmo "Questão 7"
+
+var
+   hora : inteiro
+
+inicio
+
+      escreval("Digite uma hora do dia: ")
+      leia(hora)
+      
+      repita
+            se (hora =00) ou (hora <=11) entao
+               escreval("É uma bela manhã para se programar!")
+            senao
+                 se (hora = 12) ou (hora <= 17) entao
+                    escreva("A tarde está perfeita para resolver as listas de ")
+                    escreva("exercicos de laboratório de algoritmos!")
+                 senao
+                      se (hora = 18) ou (hora <=23) entao
+                         escreva("A noite é o horário em que os hackers")
+                         escreva("entram em ação. Vamos codar!")
+                      fimse
+                 fimse
+            fimse
+
+      ate hora = hora
+      
+      
+      
+fimalgoritmo
